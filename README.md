@@ -13,4 +13,11 @@ set hlsearch
 exec "nohlsearch"
 set incsearch    
 set ignorecase
-set smartcase   
+set smartcase 
+
+noremap <LEADER><CR> :nohlsearch<CR>    
+    
+map S :w<CR>    
+map s <nop>    
+map sq :q<CR>    
+map R :source $MYVIMRC<CR>
