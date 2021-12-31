@@ -1,7 +1,7 @@
-# Nvim-light
-" xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' 
-let mapleader=" "
-syntax on
+# Nvim-light\n
+" xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape' \n
+let mapleader=" "\n
+syntax on\n
  
 set number
 set relativenumber
