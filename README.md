@@ -5,19 +5,19 @@ syntax on
  
 set number
 set relativenumber
-set nocursorline  
+set nocursorline
 set wrap   " huanhang
 set showcmd
 set wildmenu
 set hlsearch
 exec "nohlsearch"
-set incsearch    
+set incsearch
 set ignorecase
-set smartcase 
+set smartcase
 
-noremap <LEADER><CR> :nohlsearch<CR>    
-    
-map S :w<CR>    
-map s <nop>    
-map sq :q<CR>    
+noremap <LEADER><CR> :nohlsearch<CR>
+
+map S :w<CR>
+map s <nop>
+map sq :q<CR>
 map R :source $MYVIMRC<CR>
